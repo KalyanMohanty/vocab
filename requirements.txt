@@ -1,4 +1,10 @@
-streamlit
 numpy
+Flask
+gunicorn
+itsdangerous
+Jinja2
+simplejson
+Werkzeug
+requests
 pandas
 requests
