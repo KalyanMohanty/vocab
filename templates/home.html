@@ -1,7 +1,101 @@
-<!-- home.html -->
-{% extends 'base.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Community</title>
 
-{% block content %}
-    <h1>Welcome to My Blog</h1>
-    <!-- Add your blog content here -->
-{% endblock %}
+    <style>
+        /* CSS styles for the navigation bar */
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: justify;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+        nav ul li {
+            float: left;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            text-align: justify;
+        }
+        .container p {
+            margin-bottom: 20px; /* Add some margin-bottom for spacing between paragraphs */
+        }
+        footer {
+            text-align: center;
+            max-width: 1200px;
+            padding: 20px 0;
+            /* background-color: #333; */
+            color: black;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/modules">Syllabus</a></li>
+            <li><a href="/playlist">Playlist</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>Welcome to Our Community: A Journey of Discovery and Connection</h1>
+        <p>Dear Visitor,</p>
+    <p>     We extend our warmest greetings and heartfelt appreciation for taking the time to explore
+        our community. As you embark on this journey of discovery, we invite you to immerse 
+        yourself in the rich tapestry of experiences, insights, and opportunities that await 
+        you here.At the heart of our community lies a shared passion for learning, growth, and connection. 
+        Whether you are a seasoned explorer seeking new horizons or a curious soul eager to 
+        expand your knowledge, you have found a welcoming home amidst our digital landscape.</p>
+    
+    <p>    As you navigate through our virtual corridors, you will encounter a myriad of voices, 
+        perspectives, and stories waiting to be heard. From thought-provoking articles and in-depth 
+        analyses to captivating visuals and interactive discussions, 
+        our platform offers a diverse array of content curated to inspire, inform, and engage. Beyond the mere exchange of information, our community is a vibrant ecosystem teeming 
+        with life, energy, and possibility. Here, you will find not only a wealth of knowledge 
+        but also a supportive network of 
+        fellow travelers, mentors, and collaborators ready to accompany you on your journey.</p>
+        
+    <p> We believe in the power of connection to spark innovation, foster understanding, and transform lives. Whether you are here to share your expertise, seek guidance, or simply connect with like-minded individuals, you are an integral part of our ever-evolving tapestry.
+        As you navigate through the virtual halls of our community, we encourage you to embrace curiosity, cultivate empathy, and celebrate diversity. Each interaction, each exchange of ideas, is an opportunity to learn, grow, and deepen your understanding of the world around you.
+        In this digital age, where boundaries dissolve and barriers to communication vanish, our community serves as a beacon of hope, a sanctuary of shared values and aspirations. Together, we can harness the power of technology to bridge divides, foster meaningful connections, and build a brighter, more inclusive future for all.
+        Whether you are a newcomer or a seasoned veteran, we welcome you with open arms and open minds. Here, you are free to explore, to express, and to evolve—to become the best version of yourself and to help others do the same.</p>
+       
+      <p>  Thank you for joining us on this extraordinary journey. 
+        Together, let us embark on a voyage of discovery, connection, and transformation—together, let us shape the future, one interaction at a time.</p>
+
+    </p>
+    </div>
+    <footer>
+        &copy; 2024 Tableau Course Modules. All rights reserved.
+    </footer>
+</body>
+</html>

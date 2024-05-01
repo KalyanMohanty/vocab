@@ -6,9 +6,12 @@ app = Flask(__name__)
 def home():
     return render_template('home.html')
 
-@app.route('/contact')
-def contact():
-    return render_template('contact.html')
+@app.route('/playlist')
+def playlist():
+    return render_template('playlist.html')
 
+@app.route('/modules')
+def modules():
+    return render_template('modules.html')
 if __name__ == '__main__':
     app.run(debug=True)
